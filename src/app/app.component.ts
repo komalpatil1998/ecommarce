@@ -15,6 +15,8 @@ export class AppComponent {
 
   url:string = "assets/mobile.jpg";
   secondurl:string = "assets/girl.jpg";
+  third:string = "assets/bottle.jpg";
+  fourth:string ="assets/gshoes.jpg"
 
   changeImage(event:any)
   {
@@ -25,5 +27,13 @@ export class AppComponent {
   {
    this.secondurl = event.target.src;
   }
+  thirdImage(event:any)
+  {
+    this.third = event.target.src;
+  }
+  fourthImage(event:any)
+  {
+    this.fourth = event.target.src;
 
+  }
 }
